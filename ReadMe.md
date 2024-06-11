@@ -1,9 +1,24 @@
-# Project containing a scripts for VR manipulation of a Flexiv robot
+# Flexiv Robot VR Manipulation Project
 
-The only important file of this project is the `src/flexiv_speed_control.cpp` file. It connects the flexiv robot to ROS and listen to a topic made in Unity so that it can act as a middle layer to transfer the message to the robot. This code is in cpp as the Flexiv requires an high frequency to work in realtime, which is faster than what Python can offer.
+## Project Overview
+This project contains scripts for VR manipulation of a Flexiv robot. The primary file of interest is src/flexiv_speed_control.cpp, which connects the Flexiv robot to ROS and listens to a topic created in Unity. It acts as a middle layer to transfer messages to the robot. This code is written in C++ because the Flexiv requires high-frequency operations for real-time functionality, which C++ handles more efficiently than Python.
 
-Unfortunately, I don't have access anymore to the Flexiv robot with which this porject was made. As such, I can't properly test wether or not it is still working properly.
+## Current Status
 
-There was a problem with the CMakeList.txt when I first made this code but it disapear at one point and I still don't know what caused this fixed.
+Unfortunately, I no longer have access to the Flexiv robot with which this project was developed. As such, I cannot verify whether it is still functioning correctly.
 
-From how it used to work, you need the [flexiv_ros project](https://github.com/flexivrobotics/flexiv_ros) and the [flexiv_rdk](https://github.com/flexivrobotics/flexiv_rdk). I suggest to check their GitHub to before using this project.
+## Known Issues
+
+There was an issue with the CMakeLists.txt file when I initially created this code, but it disappeared at some point, and I still do not know what caused this fix.
+
+## Prerequisites
+- flexiv_ros: You will need the flexiv_ros project foun [here](https://github.com/flexivrobotics/flexiv_ros).
+- flexiv_rdk: You will also need the flexiv_rdk found [here](https://github.com/flexivrobotics/flexiv_rdk).
+
+I suggest checking their GitHub repositories for the latest versions and installation instructions before using this project.
+
+## Installation Instructions
+
+## Disclaimer
+
+Due to the lack of access to the original hardware, this project may not work as expected. Please test it thoroughly in your environment and report any issues you encounter.
