@@ -9,15 +9,13 @@ Unfortunately, I no longer have access to the Flexiv robot with which this proje
 
 ## Known Issues
 
-There was an issue with the CMakeLists.txt file when I initially created this code, but it disappeared at some point, and I still do not know what caused this fix.
+There was an issue with the `CMakeLists.txt` file when I initially created this code, but it disappeared at some point, and I still do not know what caused this fix.
 
 ## Prerequisites
-- flexiv_ros: You will need the flexiv_ros project foun [here](https://github.com/flexivrobotics/flexiv_ros).
-- flexiv_rdk: You will also need the flexiv_rdk found [here](https://github.com/flexivrobotics/flexiv_rdk).
+- flexiv_ros: You will need the `flexiv_ros` project foun [here](https://github.com/flexivrobotics/flexiv_ros).
+- flexiv_rdk: You will also need the `flexiv_rdk` found [here](https://github.com/flexivrobotics/flexiv_rdk).
 
 I suggest checking their GitHub repositories for the latest versions and installation instructions before using this project.
-
-## Installation Instructions
 
 ## Disclaimer
 
