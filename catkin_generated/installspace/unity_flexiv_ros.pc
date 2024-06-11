@@ -1,0 +1,8 @@
+prefix=/home/jonathan/flexiv/flexiv_ros_ws/install
+
+Name: unity_flexiv_ros
+Description: Description of unity_flexiv_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
